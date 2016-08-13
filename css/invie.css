@@ -164,9 +164,11 @@ input:focus, textarea:focus {
   /*overflow: hidden;*/
   border: 1px solid #1F313C;
   border-radius: 8px;
+  height: 225px;
 }
 .guitarra ol {
   padding: 0;
+  list-style: none;
 }
 .guitarra.b {
   height: 190px;
@@ -176,21 +178,24 @@ input:focus, textarea:focus {
 .derecha {
   float: right;
   position: relative;
-  top: -127px;
+  top: -115px;
 }
 
 .izquierda {
   float: left;
   position: relative;
+  top: -110px;
 }
 
 .contenedor-guitarra-a {
   padding-left: 20px;
+  position: relative;
+  top: -15px;
 }
 .contenedor-guitarra-b {
   margin-left: 370px;
   position: relative;
-  bottom: 90px;
+  bottom: 50px;
 
 }
 
@@ -201,7 +206,11 @@ input:focus, textarea:focus {
 
 .footer {
   background: #273b47;
-  padding: 50px 10px;
+  /*padding: 50px 10px;*/
+}
+
+.footer div{
+  top: -45px;
 }
 
 .contacto {
